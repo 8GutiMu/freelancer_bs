@@ -1,6 +1,11 @@
 /*
  * Estilos reutilizables
  */
+ *{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0px;
+ }
 
  .container{
 
@@ -68,7 +73,125 @@
    text-align: center;
  }
 
- header{
+ .text-uppercase {
+   text-transform: uppercase;
+ }
+
+ .star{
+   display: inline-block;
+   vertical-align: middle;
+   height: 5px;
+   width: 100px;
+   margin-bottom: 4%;
+ }
+
+/*Estilos del Nav*/
+ nav{
    background-color: #31455a;
    height: 100px;
+   font-family: Montserrat;
+   color: white;
  }
+
+ nav > div:first-child > div:nth-child(2) {
+   font-size: 28px;
+   color:white;
+   text-decoration:none;
+   font-weight: bold;
+ }
+
+ nav > div:first-child > div {
+   color:white;
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 2%;
+ }
+
+ /*estilos del header*/
+ header{
+   background-color: #18BC9C;
+   color: white;
+   font-family: Montserrat;
+}
+
+header >div >div> img{
+  margin: 8%;
+  margin-bottom: 0%;
+
+}
+
+header > div:nth-child(2){
+  font-size: 66px;
+  font-weight: bolder;
+}
+
+header > div:nth-child(3) > div:nth-child(2) >div{
+  background-color: white;
+  }
+
+header > div:nth-child(4) {
+  font-size: 20px;
+  font-weight: normal;
+  height: 10%;
+}
+
+/*estilos portafolio*/
+
+#portafolio{
+  font-family: Montserrat;
+  color: #333333;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 4%;
+}
+
+#portafolio > div:first-child{
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+#portafolio > div:nth-child(2) > div:nth-child(2) >div{
+  background-color: #333333;
+}
+
+#imagenesPortafolio{
+  margin-bottom: 5%;
+}
+#imagenesPortafolio img{
+    width: 30%;
+    margin: 1%
+}
+
+/*seccion about*/
+
+#about{
+  background-color: #18BC9C;
+  color: white;
+  font-family: Montserrat;
+}
+
+#about > div:first-child > div{
+  margin-top: 5%;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#about > div:nth-child(2) > div:nth-child(2) >div{
+  background-color: white;
+}
+
+#about > div:nth-child(3) >div:nth-child(2) >p {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+  margin-left: 8%;
+  font-size: 20px;
+}
+
+#about > div:nth-child(4) > div {
+  margin-left: 40%;
+  width: 20%;
+  border: 2px solid white;
+  border-radius: 5%;
+}
