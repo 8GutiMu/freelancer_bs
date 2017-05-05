@@ -263,11 +263,13 @@ header > div:nth-child(4) {
 footer{
   font-family: Montserrat;
   color: white;
-  margin-bottom: 10%;
+
 }
 
 footer > div{
   background-color: #2c3e50;
+  padding-top:  2%;
+  padding-bottom: 3%;
 
 }
 
@@ -275,6 +277,7 @@ footer > div:last-child{
   background-color: #233140;
   font-size: 12px;
   padding:  2%;
+
 }
 footer > div:nth-child(2) > div:last-child > span{
   color: #128f76;
